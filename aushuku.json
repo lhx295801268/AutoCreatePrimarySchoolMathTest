@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="9b6eb9224cc4aa0be84e73a49d478cf9_1628144465" name="shenma-site-verification"/>
+<meta content="ea6a93f188190989bb0c0bdd4a6fef58_1628144837" name="shenma-site-verification"/>
+<meta content="IxgXsY7tvw" name="sogou_site_verification"/>
+<meta content="UTzs2epHiH" name="sogou_site_verification"/>
+<meta content="cc8c971aa45b0cad28d2b1103426406c" name="360-site-verification"/>
+<meta content="027445c77542ef493e71a1ca4ae50f1f" name="360-site-verification"/>
+<meta content="9/Yz3HQmycwRY36zp1jh" name="bytedance-verification-code"/>
+<meta content="code-3zPGfUNGvJ" name="baidu-site-verification"/>
+<meta content="code-RSPfkLcuQE" name="baidu-site-verification"/>
+<title>奥数库网-小学奥数题_数学题大全及答案</title>
+<meta content="小学奥数题,小学数学题,奥数题大全及答案,数学题大全及答案,教育资源,课件,试卷" name="keywords"/>
+<meta content="奥数库提供小学1-6年级奥数题,数学题大全及答案,知识点题型汇总,更有奥数试卷,数学试卷,数学课件,教案反思等知识，是一个以奥数知识为主的综合教学网站" name="description"/>
+<link href="/static/css/bootstrap@4.5.0.css" rel="stylesheet"/>
+<link href="/static/css/index.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"> </script>
+</head>
+<body>
+<!-- 网页头部编写 -->
+<div class="HeaderView">
+<script>
+//  pc / m网页跳转
+try {
+    var url = window.location.href;
+    var pathname = window.location.pathname;
+    var host = window.location.host;
+    if (url.indexOf('http://www.') > -1 || url.indexOf('https://www.') > -1) {
+        if (window.navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
+            host = host.replace('www.', '');
+            window.location.href = '//m.' + host + pathname;
+        }
+    } else {
+        if (window.navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
+            
+        } else {
+            if (url.indexOf('http://m.') > -1 || url.indexOf('https://m.') > -1) {
+                host = host.replace('m.', '');
+                window.location.href = '//www.' + host + pathname;
+            }   
+        }
+    }
+} catch (e) {
+
+}
+
+</script>
+<div class="top-head d-lg-block d-none">
+<div class="container top-head-content">
+<div class="d-lg-flex justify-content-between d-none">
+<span class="slogan">欢迎来到<a class="ask" href="/">奥数库</a></span>
+<div>
+<a class="head-map pr-4" href="/help/cjwt/">帮助中心</a>
+<a class="head-map" href="/map.html">网站地图</a>
+</div>
+</div>
+</div>
+</div>
+<!-- 搜索栏编写 -->
+<div class="top-search d-lg-block d-none">
+<div class="container top-search-content d-flex justify-content-between align-items-center">
+<a class="d-none d-lg-block logo-img" href="/"><img alt="" src="/static/img/logo-black.png"/></a>
+<form action="/e/search/index.php" class="input-group search d-flex justify-content-between" method="post" name="searchform">
+<input class="form-control d-lg-inline-block d-none" id="keyboard'" name="keyboard" placeholder="输入奥数题目搜索" type="text" value=""/>
+<input id="title" name="show" type="hidden" value="title"/>
+<input id="tempid" name="tempid" type="hidden" value="6"/>
+<input id="tbname" name="tbname" type="hidden" value="wenku"/>
+<input id="mid" name="mid" type="hidden" value="6"/>
+<input id="dopost" name="dopost" type="hidden" value="search"/>
+<input id="classid" name="classid" type="hidden" value=""/>
+<div class="input-group-append">
+<button class="submit btn btn-outline-secondary search-button" data-target="searchInput" id="button-addon2" type="submit">
+<i></i>
+</button>
+</div>
+</form>
+<img alt="二维码" class="code d-lg-inline-block d-none" src="https://pms.aoshuku.com/d/file/2021/08-27/6cc2811ae4d76ca87cb65c5ebe821de3.jpg"/>
+</div>
+</div>
+<!-- 导航栏编写 -->
+<nav class="navbar navbar-dark head-nav">
+<ul class="nav container">
+<li class="nav-item">
+<a class="nav-link active" href="./index.html">首页</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/shuxueti/">小学数学题</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/aoshu/">小学奥数题</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/kejian/">小学数学课件</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/gongshi/">小学数学公式</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/zhishi/">小学数学知识</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/shijuan/">小学数学试卷</a>
+</li>
+</ul>
+</nav>
+</div>
+<!-- web头部导航栏 -->
+<div class="web-head">
+<nav class="web-navbar">
+<div class="d-flex justify-content-between align-items-center">
+<a class="web-logo" href="/"><img alt="" src="/static/img/logo-white.png"/></a>
+<div class="dropdown">
+<a class="btn btn-secondary web-nav-btn" href="/map.html">
+                    全部菜单
+                </a>
+</div>
+</div>
+</nav>
+</div>
+<!-- web身体编写 -->
+<div class="web-body">
+<!-- web搜索栏 -->
+<div class="web-search row d-flex justify-content-between">
+<form action="/e/search/index.php" class="web-form-search d-flex justify-content-between" method="post" name="searchform">
+<input class="web-input pl-3" id="" name="keyboard" placeholder="搜索更多奥数题" type="text" value=""/>
+<input name="show" type="hidden" value="title"/>
+<input name="tempid" type="hidden" value="6"/>
+<input name="tbname" type="hidden" value="wenku"/>
+<input name="mid" type="hidden" value="6"/>
+<input name="dopost" type="hidden" value="search"/>
+<div class="input-group-append">
+<button class="submit web-search-btn" data-target="searchInput" id="button-addon2" type="submit">
+<div>搜索</div>
+</button>
+</div>
+</form>
+</div>
+<!-- web点击内容编写 -->
+<div class="web-message row mx-3">
+<div class="col-4 web-message-item pl-3 py-3">
+<a href="/shijuan/">
+<div class="web-message-bg1"></div>
+<div class="web-message-text pt-2">小学数学试卷</div>
+</a>
+</div>
+<div class="col-4 web-message-item pl-3 py-3">
+<a href="/zhishi/">
+<div class="web-message-bg2"></div>
+<div class="web-message-text pt-2">小学数学知识</div>
+</a>
+</div>
+<div class="col-4 web-message-item pl-3 py-3">
+<a href="/gongshi/">
+<div class="web-message-bg3"></div>
+<div class="web-message-text pt-2">小学数学公式</div>
+</a>
+</div>
+<div class="col-4 web-message-item pl-3 py-3">
+<a href="/kejian/">
+<div class="web-message-bg4"></div>
+<div class="web-message-text pt-2">小学数学课件</div>
+</a>
+</div>
+<div class="col-4 web-message-item pl-3 py-3">
+<a href="/aoshu/">
+<div class="web-message-bg5"></div>
+<div class="web-message-text pt-2">小学奥数题</div>
+</a>
+</div>
+<div class="col-4 web-message-item pl-3 py-3">
+<a href="/shuxueti/">
+<div class="web-message-bg6"></div>
+<div class="web-message-text pt-2">小学数学题</div>
+</a>
+</div>
+</div>
+</div>
+<!-- 网页内容部分编写 -->
+<div class="content-body container pb-5">
+<!-- 左边内容 -->
+<div class="content-left">
+<!-- 内容导航编写 -->
+<div class="zy-item zy-cpt">
+<div class="zy-title px-3 py-3 d-lg-flex align-items-center">
+<i class="zy-icon0"></i>
+<h3 class="d-inline-block mb-0">小学奥数大全及答案</h3>
+</div>
+<ul class="d-flex justify-content-spacearound flex-wrap mb-0">
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon1 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学一年级</div><a class="text-center" href="/aoshu/yi/">奥数题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon2 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学二年级</div><a class="text-center" href="/aoshu/er/">奥数题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon3 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学三年级</div><a class="text-center" href="/aoshu/san/">奥数题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon4 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学四年级</div><a class="text-center" href="/aoshu/si/">奥数题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon5 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学五年级</div><a class="text-center" href="/aoshu/wu/">奥数题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon6 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学六年级</div><a class="text-center" href="/aoshu/liu/">奥数题</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="zy-item zy-cpt">
+<div class="zy-title px-lg-3 py-lg-3 d-lg-flex align-items-center">
+<i class="zy-icon0"></i>
+<h3 class="d-inline-block mb-0">小学数学试卷</h3>
+</div>
+<ul class="d-flex justify-content-spacearound flex-wrap mb-0">
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon1 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">人教版数学</div><a class="text-center" href="shijuan/ranjiao/">试卷</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon2 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">苏教版数学</div><a class="text-center" href="shijuan/sujiao/">试卷</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="zy-item zy-cpt">
+<div class="zy-title px-lg-3 py-lg-3 d-lg-flex align-items-center">
+<i class="zy-icon0"></i>
+<h3 class="d-inline-block mb-0">小学数学题大全</h3>
+</div>
+<ul class="d-flex justify-content-spacearound flex-wrap mb-0">
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon1 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学一年级</div><a class="text-center" href="/shuxueti/yi/">数学题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon2 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学二年级</div><a class="text-center" href="/shuxueti/er/">数学题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon3 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学三年级</div><a class="text-center" href="/shuxueti/san/">数学题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon4 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学四年级</div><a class="text-center" href="/shuxueti/si/">数学题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon5 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学五年级</div><a class="text-center" href="/shuxueti/wu/">数学题</a></div>
+</div>
+</li>
+<li class="zy-box">
+<div class="zy-box2 d-flex px-2 py-2">
+<i class="zy-icon6 zy-icon"></i>
+<div class="zy-div pl-3"><div class="text-center">小学六年级</div><a class="text-center" href="/shuxueti/liu/">数学题</a></div>
+</div>
+</li>
+</ul>
+</div>
+<!-- 底部更新推荐信息编写 -->
+<div class="zy-item">
+<div class="zy-title px-3 py-3 d-flex align-items-center justify-content-between mt-3 mt-lg-0">
+<div>
+<i class="zy-icon0 d-none d-lg-inline-block"></i>
+<h3 class="d-inline-block mb-0">最新奥数题</h3>
+</div>
+<a class="web-more" href="/aoshu/">查看更多</a>
+</div>
+<div class="d-lg-flex justify-content-bewteeen box-t">
+<div class="web-text web-div pt-lg-3 col-lg-12 px-0">
+<ul class="text mb-0 clearfix">
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462046.html">有规格尺寸相同的5种颜色的袜子各15只混装在箱内，试问不论如何取，从箱中至少取出多少只就能保证有3双袜子（袜子无左、右之分）？</a>
+</li>
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462045.html">任意4个自然数，其中至少有两个数的差是3的倍数。这是为什么？</a>
+</li>
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462044.html">一个小组共有13名同学，其中至少有2名同学同一个月过生日。为什么？</a>
+</li>
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462043.html"> 有27个外表上一样的球，其中只有一个是次品，重量比正品轻，请你用天平只称三次（不用砝码），把次品球找出来。</a>
+</li>
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462042.html">有4堆外表上一样的球，每堆4个。已知其中三堆是正品、一堆是次品，正品球每个重10克，次品球每个重11克，请你用天平只称一次，把是次品的那堆找出来。</a>
+</li>
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462041.html">用白铁皮做罐头盒，每张铁皮可制盒身16个，或制盒底43个，一个盒身和两个盒底配成一个罐头盒，现有150张铁皮，用多少张制盒身，多少张制盒底，才能使盒身与盒底正好配套？</a>
+</li>
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462040.html">甲乙两个粮库原来共存粮170吨，后来从甲库运出30吨，给乙库运进10吨，这时甲库存粮是乙库存粮的2倍，两个粮库原来各存粮多少吨？</a>
+</li>
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462039.html">弟弟有课外书20本，哥哥有课外书25本，哥哥给弟弟多少本后，弟弟的课外书是哥哥的2倍？</a>
+</li>
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462038.html">甲乙两架飞机同时从机场向相反方向飞行，3小时共飞行3600千米，甲的速度是乙的2倍，求它们的速度各是多少？</a>
+</li>
+<li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left">
+<a class="web-text-link mx-lg-0" href="/timu/462037.html"> 秦奋和妈妈的年龄加在一起是40岁，妈妈的年龄是秦奋年龄的4倍，问秦奋和妈妈各是多少岁？</a>
+</li>
+</ul>
+</div>
+<div class="web-text web-div pt-lg-3 pl-lg-5 d-lg-none d-block">
+<div class="web-text-title d-flex d-lg-none justify-content-between mt-3 px-3 py-3"><h3 class="mb-0">奥数题关注排行</h3><a class="web-more" href="/aoshu/">查看更多</a></div>
+<ul class="text2 text mb-0">
+<li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/296444.html">　　由 0，2，5，6，7，8 组成无重复数字的数．  　　⑴是 25 的倍数的四位数有多少个？  　　⑵大于 5860 的四位数有多少个？</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/26143.html"><p>1、爸爸和儿子比较年龄，4年后，爸爸的年龄是儿子的3倍。已知爸爸比儿子大了24岁，问：今年爸爸、儿子多大？</p>
+<p>2、艾迪3年前的岁数等于武西1年后的岁数。并且知道艾迪1年后与武西2年前的岁数和为19岁。问：艾迪和武西今年多大？</p>
+</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/296473.html">一项工程，甲、乙合做8天完成。如果先让甲独做6天，再由乙独做，完成任务时发现乙比甲多了3 天。乙独做这项工程要几天完成？</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/16923.html"><p>屋里有10支点燃的蜡烛，被风吹灭了4支。此时屋里还有多少支蜡烛?</p>
+</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/297681.html">如果把一根木头截成3段要花8分钟，那么要把12根木头每根都截成6段，需要（）分钟.</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/6142.html">如图所示，白色和黑色的三角形按顺序排列。当两种三角形的数量相差个12时，白色三角形有_____个。<br/><img src="https://www.aoshuku.com/upload_files/other/1_20130318220340_NzE0.jpg"/></a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/296498.html">高年级同学做了18朵红花送给低年级6个班级的"三好学生"，要求每班得到的朵数是单数，能分吗？</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/26141.html"><p>中秋节学校里发月饼，如果每人发2个，则刚好多了4盒；如果每人多发一个，那么还差2盒。已知一个盒子里装了20个月饼。问：如果给每人发3个月饼，学校需要买多少盒？</p>
+</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/295977.html"><p>某地收取电费的标准是：每月用电量不超过50度，每度收5角；如果超出50度，超出部分按每度8角收费.每月甲用户比乙用户多交3元3角电费，这个月甲、乙各用了多少度电？</p>
+</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/308348.html">电扇厂计划20天生产电扇1600台．生产5天后，由于改进技术，效率提高25％，完成计划还要多少天？</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/26144.html"><p>在数18682140563437969097中划去15个数字，使剩下的数字顺序不变，得到一个最大是多少？最小是多少？</p>
+</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/24417.html"><p>6辆大卡车5趟可以运走50吨沙，9辆小卡车4趟可以运走48吨沙。现在有大小卡车一共60辆，这些卡车一起运送3趟可以运走沙261吨。那么有多少辆大卡车？</p>
+</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/21903.html"><p>甲乙丙三人分别说了下面三句话，请你从他们所说的话判定谁说假话?甲说："乙在说谎."乙说："丙在说谎."丙说："甲和乙都在说谎."</p>
+</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/296443.html">由 0，2，5，6，7，8 组成无重复数字的数．  　　⑴整数有多少个？  　　⑵是 5 的倍数的三位数有多少个？</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/296442.html">在数列3、6、9……，201中，共有多少数？如果继续写下去，第201个数是多少？</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/296441.html">　在11～45这35个数中，所有不被3整除的数的和是多少？</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/296420.html">　　在下面算式合适的地方添上+、-、×号，使等式成立。  　　3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3=1992</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/21283.html"><p>现有1角币1张，2角币1张，5角币1张，1元币4张，5元币2张。用这些钱可以付出不同的各种数额的币值____种。(0元0角不算)</p>
+</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/19311.html"><p>小明、小华捉完鱼。小明说：“如果你把你捉的鱼给我1条，我的鱼就是你的2倍。如果我给你1条，咱们就一样多了。”请算出两人各捉了多少条鱼？</p>
+</a></li><li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a class="web-text-link" href="/timu/6104.html">林林、红红、芳芳三个小朋友买糖吃。林林买了7 粒，红红买了8 粒，芳芳没有买。三个小朋友要平分吃，芳芳一共付了1 元钱，其中给林林（）角，给红红（）角。</a></li> </ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 右侧推荐更新信息 -->
+<div class="content-right zy-cpt">
+<ul class="right-content mb-0">
+<div class="zy-title d-flex justify-content-between py-3">
+<h3 class="mb-0">热门数学题</h3><a class="more" href="/shuxueti/">查看更多</a>
+</div>
+<li class="px-2 py-1"><a class="link zy-link" href="/timu/459053.html">小学一年级奥数题行程问题</a></li><li class="px-2 py-1"><a class="link zy-link" href="/timu/426168.html">初中精选写景作文：海城之旅</a></li><li class="px-2 py-1"><a class="link zy-link" href="/timu/426169.html">初中精选写景作文：湄夏</a></li><li class="px-2 py-1"><a class="link zy-link" href="/timu/426170.html">初中精选写景作文：爱我琼海</a></li><li class="px-2 py-1"><a class="link zy-link" href="/timu/426171.html">初中精选写景作文：论春秋</a></li><li class="px-2 py-1"><a class="link zy-link" href="/timu/426172.html">初中精选写景作文：聆听雨声</a></li><li class="px-2 py-1"><a class="link zy-link" href="/timu/426173.html">初中精选写景作文：花园悲剧</a></li><li class="px-2 py-1"><a class="link zy-link" href="/timu/426174.html">初中精选写景作文：迷人秋韵</a></li><li class="px-2 py-1"><a class="link zy-link" href="/timu/426175.html">初中精选写景作文：雷阵雨</a></li><li class="px-2 py-1"><a class="link zy-link" href="/timu/426178.html">初中精选写景作文：黄山美景</a></li> </ul>
+<ul class="right-content mb-0">
+<div class="zy-title d-flex justify-content-between py-3">
+<h3 class="mb-0">热门试卷</h3><a class="more" href="/shijuan/">查看更多</a>
+</div>
+<li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310334.html">一年级数学典型练习题上册</a></li><li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310333.html">小学一年级数学口算练习题</a></li><li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310332.html">人教版小学四年级（上）期末数学复习试卷</a></li><li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310331.html">人教版小学数学二年级下册第七单元试卷</a></li><li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310330.html">人教版五年级数学下册期末测试试题及答案</a></li><li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310329.html">人教版五年级（上）期末数学试卷</a></li><li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310328.html">人教版四年级数学下册期末测试试题及答案</a></li><li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310326.html">人教版二年级数学下册第一单元试卷</a></li><li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310325.html">人教版二年级数学下册第二单元试卷</a></li><li class="px-2 py-1"><a class="link zy-link" href="/shijuan/310324.html">人教版二年级上册数学期末考试题(含答案)</a></li> </ul>
+</div>
+<div class="zy-item float-left w-100">
+<div class="zy-title px-3 py-3 d-lg-flex align-items-center mt-3 mt-lg-0">
+<i class="zy-icon0 d-none d-lg-inline-block"></i>
+<h3 class="d-inline-block mb-0">友情链接</h3><span class="px-3 text-secondary font-12">欢迎各位教育学习网站进行合作 <a class="d-lg-inline d-none" href="https://wpa.qq.com/msgrd?v=3&amp;uin=403074932&amp;site=qq&amp;menu=yes" target="_blank">QQ：403074932</a><a class="d-lg-none d-inline copy-btn" href="javascript:void(0)">QQ：</a><a class="copy d-lg-none d-inline" href="javascript:void(0)">403074932</a></span>
+</div>
+<div class="d-flex flex-wrap px-3 py-lg-3 friendly-box pb-3">
+<a class="friendly text-secondary py-2 text-center" href="https://www.ttzyw.com/" target="_blank">天天资源网</a>
+<a class="friendly text-secondary py-2 text-center" href="https://www.chengyucidian.com.cn/" target="_blank">成语词典</a>
+<a class="friendly text-secondary py-2 text-center" href="https://www.61taotao.com/" target="_blank">淘文库</a>
+<a class="friendly text-secondary py-2 text-center" href="https://m.5ykj.com/" target="_blank">莲山课件</a>
+<a class="friendly text-secondary py-2 text-center" href="http://www.wenku365.com" target="_blank">天天文库</a>
+</div>
+</div>
+</div>
+<!-- 底部 -->
+<div class="foot d-lg-block d-none">
+<div class="foot-bd d-flex justify-content-between container">
+<div class="foot-bd-left pt-5">
+<h3 class="mb-0">网站地图</h3>
+<ul class="d-flex flex-wrap mb-0 pt-3">
+<li><a class="foot-link" href="/aoshu/">小学奥数题</a></li>
+<li><a class="foot-link" href="/kejian/">小学数学课件</a></li>
+<li><a class="foot-link" href="/shuxueti//">小学数学题</a></li>
+<li><a class="foot-link" href="/gongshi/">数学公式</a></li>
+<li><a class="foot-link" href="/shijuan/">小学数学试卷</a></li>
+<li><a class="foot-link" href="/zhishi/">数学知识</a></li>
+</ul>
+</div>
+<div class="foot-bd-mid pt-5 px-3">
+<h3 class="mb-0">网站简介</h3>
+<p class="mb-0 pt-3">奥数库(www.aoshuku.com)是一个专注奥数知识扩展和学习的在线教育网站，内容涵盖了奥数题、数学题、试卷、课件、知识点、数学公式等，拥有大量的奥数题库和数学题库，包含全国中小学各个版本教材，深受中小学师生用户喜爱的网站。</p>
+</div>
+<div class="foot-bd-right pt-5">
+<div class="message d-flex justify-content-between">
+<div class="erweima-box">
+<img alt="" class="erweima" src="https://pms.aoshuku.com/d/file/2021/08-27/6cc2811ae4d76ca87cb65c5ebe821de3.jpg"/>
+<h4 class="mb-0">微信公众号</h4>
+</div>
+<div class="px-3">
+<p class="mb-0 pb-3">本站点发布的文章作品均来自用户投稿或网络整理,，如部分文章涉及版权问题请及时通过以下方式联系站点负责人。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="foot-finally pt-3">
+        2016-2021 奥数库-专注奥数知识  <a href="https://beian.miit.gov.cn/#/Integrated/index">闽ICP备2021004933号</a>
+<p>奥数库专注奥数知识分享，如有版权作品存在问题或内容中存在违法和不良信息，请立即联系403074932@qq.com</p>
+<p><a href="http://www.beian.gov.cn/portal/recordQuery?token=2ce7db2a-90ec-469e-b49a-94dabf3dcd0b">闽公网安备 35021302000396号</a></p>
+</div>
+</div>
+<!-- web底部样式 -->
+<div class="web-foot d-lg-none d-block py-4">
+<div class="foot-box"><div class="web-foot-top"><a href="/">奥数库</a><span class="vertical-line"></span><a href="/map.html">网站导航</a></div></div>
+<div class="web-foot-down"><a href="https://beian.miit.gov.cn/#/Integrated/index">闽ICP备2021004933号</a></div>
+</div>
+<script>
+    if (/Android|webOS|iPhone|iPod|mobile|BlackBerry|ucweb|SymbianOS/i.test(navigator.userAgent)) {
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?b06973e014bfb6d7f71fed9818b2be53";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    }
+    else{
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?8b1bb19e86be55aed4c5dd8d07f2405e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    }
+    
+</script>
+</body>
+<script src="/static/js/jquery@3.5.1.min.js"></script>
+<script src="/static/js/popper@1.16.0.min.js"></script>
+<script src="/static/js/bootstrap@4.5.0.min.js"></script>
+<script src="/static/js/web.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.copy-btn', {
+    // 通过target指定要复印的节点
+        target: function() {
+                   return document.querySelector('.copy');
+              }
+    });
+ 
+    clipboard.on('success', function(e) {
+        console.log(e);
+        alert("复制成功")
+        e.clearSelection();
+    });
+ 
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+var clipboard2 = new ClipboardJS('.copy', {
+    // 通过target指定要复印的节点
+        target: function() {
+                   return document.querySelector('.copy');
+              }
+    });
+ 
+    clipboard2.on('success', function(e) {
+        console.log(e);
+        alert("复制成功")
+        e.clearSelection();
+    });
+ 
+    clipboard2.on('error', function(e) {
+        console.log(e);
+    });
+</script>
+</html>
