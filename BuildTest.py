@@ -17,7 +17,7 @@ class OperationType(Enum):
     # AllType = 7#所有
 
 minRangeNumber = 0 # 最小数字（多少以内的数学加减乘除式子）
-maxRangeNumber = 20 # 20以内（多少以内的数学加减乘除式子）与minRangeNumber结合标识[0,20]以内的加减乘除法
+maxRangeNumber = 10 # 20以内（多少以内的数学加减乘除式子）与minRangeNumber结合标识[0,20]以内的加减乘除法
 numOfOperation = 2 # 运算位数 比如1+1=2为2位 即参与运算的数字个数
 isRandomSpaceNumber = True # 是否随机出现空格排列数字 加法为例: False: xx + xx=__; True: xx + __ = xx
 isHaveNegNumber = False # 减法是否有负数参与
@@ -37,7 +37,7 @@ remainderContentStr = " ··· "
 buildOpterationType = OperationType.Add # 当前生成的式子类型参考OperationType
 
 #生成的文件放在哪个路径
-writeFilePath =  "C:/Users/Administrator/Desktop/TempDir/"
+writeFilePath =  "C:/Users/Administrator/Desktop/WisdomLeeHomeWork/"
 
 def getSignalNumber(maxNumber:int, isCanZero:bool = True, minNumber:int = minRangeNumber):
     """获取一个单独数字
@@ -412,7 +412,7 @@ def buildDivitionListStr():
 
 for testIndex in range(0, numberOfPage):
     #resultContent = buildReduceListStr()
-    filePath = writeFilePath + "WestonLeeWorkBook" + str(testIndex) + ".docx"
+    filePath = writeFilePath + "WestonLeeWorkBook" + "_" + str(maxRangeNumber) + "_" + str(testIndex) + "以内" + ".docx"
     doc = Document()
     rowItemStr = ""
     columIndex = 0
